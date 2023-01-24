@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,700;1,800;1,900&display=swap");
+
+/* Common &  Reset Code start  */
+* {
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+.custom__font {
+  font-family: "Poppins", sans-serif;
+}
+.custom__color {
+  background: #b68c5a;
+}
+.custom__color2 {
+  color: rgba(0, 0, 0, 0.503);
+}
+
+.custom__hight {
+  height: 40px;
+}
+.custom__fontsize {
+  font-size: 0.8rem;
+}
+.custom__bold {
+  font-weight: 800;
+  /* font-size: 0.9rem; */
+}
+
+/* Common &  Reset Code start  */
+/* navigation style  start */
+
+.nav__bg:hover {
+  background: #b68c5a;
+}
+
+/* navigation style  start */
+
+/* header style  start */
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.341), rgba(0, 0, 0, 0.363)),
+    url(./background/banner.png);
+}
+.header__head {
+  font-size: 4rem !important;
+}
+.header__input {
+  width: 73% !important;
+}
+.header__height {
+  width: 50%;
+}
+/* header style  start */
+
+/* Legal Practice section start  */
+
+.custom__row {
+  border-bottom: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+}
+.custom__row2 {
+  border-right: 1px solid #e7e7e7;
+}
+.custom__row3 {
+  border-right: 0px solid #e7e7e7;
+}
+.custom__row4 {
+  border-bottom: 1px solid #e7e7e7;
+}
+.custom__row5 {
+  border-bottom: 0px solid #e7e7e7;
+}
+
+.custom__row:hover,
+.custom__row2:hover,
+.custom__row3:hover,
+.custom__row4:hover,
+.custom__row5:hover {
+  background: #e7e7e7;
+}
+/* Legal Practice section start  */
+
+/* contact form start  */
+.contact__fontsize {
+  font-size: 0.7rem;
+}
+.contact__input {
+  background: #e7e7e7;
+  border-radius: 2px;
+  padding: 8px 10px;
+  width: 90%;
+}
+.text__area {
+  height: 60px;
+}
+
+/* contact form start  */
+.main__footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__input {
+  width: 30%;
+}
+.footer__button {
+  background: #b68c5a;
+  border-radius: 3px;
+  padding: 9px;
+}
+@media screen and (max-width: 768px) {
+  .header__btn {
+    margin-top: 10px;
+  }
+  .main__footer {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main__chaild {
+    width: 100% !important;
+  }
+}
